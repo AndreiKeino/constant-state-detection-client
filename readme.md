@@ -13,7 +13,7 @@ For Linux: execute the console command
 <b>python3 -m venv your_path_to_new_virtual_environment</b>
 </p>
 <p>
-for other operating systems there could be different command(s)
+for other operating system there could be different command(s)
 </p>
 
 ### 2. Activate it.  
@@ -24,7 +24,7 @@ For Linux: execute the console command
 <b>source your_path_to_new_virtual_environment/bin/activate</b>
 </p>
 <p>
-for other operating systems there could be different command(s)
+for other operating system there could be different command(s)
 </p>
 
 ### 3. Install the package.
