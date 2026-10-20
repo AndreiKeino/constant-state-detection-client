@@ -1,0 +1,29 @@
+# create pypi package
+# https://packaging.python.org/en/latest/tutorials/packaging-projects/
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "csd_algo"
+version = "0.0.1"
+authors = [
+  { name="Andrei V. Keino", email="andreikeino@gmail.com" },
+]
+description = "The web client for the Constant State Dectection in Timeseries algorithm webservice"
+readme = "README.md"
+requires-python = ">=3.10"
+dynamic = ["dependencies"]  # Указываем, что зависимости динамические
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICENSE*"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] } # Читаем напрямую из файла
+
+
+[project.urls]
+Homepage = "https://github.com/AndreiKeino/constant-state-detection-client"
+Issues = "https://github.com/AndreiKeino/constant-state-detection-client/issues"
