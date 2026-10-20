@@ -54,9 +54,9 @@ If all have been done correctly, you should see the console output and a couple 
 
 import requests
 import matplotlib.pyplot as plt
-import matplotlib.patches as patches
 from csd_algo.client_axiliary import report_results, __version__
-from csd_algo.models import (MAX_CSD_POINTS_FREE, CSD_Data, TestItem, AlgorithmType, WindowHeightType, to_jsonable_dict)
+from csd_algo.models import (MAX_CSD_POINTS_FREE, CSD_Data,  
+                    to_jsonable_dict)
 from csd_algo.generate_timeseries_numpy import generate_timseries
 
 plt.close('all')
