@@ -1,5 +1,5 @@
 # This is the web client description for the Constant State Dectection in Timeseries algorithm webservice.
-## You can take a look to the [perprint with the introduction to the algorithm here.](https://figshare.com/articles/preprint/The_effective_algorithm_for_constant_state_detection_in_time_series_V_2_3_/28375532)
+## You can take a look at the [perprint with the introduction to the algorithm here.](https://figshare.com/articles/preprint/The_effective_algorithm_for_constant_state_detection_in_time_series_V_2_3_/28375532)
 
 ## Requires Python 3.10+
 ## Intallation:
