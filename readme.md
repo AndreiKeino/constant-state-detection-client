@@ -27,7 +27,16 @@ For Linux: execute the console command
 for other operation systems there could de different command(s)
 </p>
 
-### 3. Quick check if it is working
+### 3. Install the package.
+<p>
+execute the console command
+</p>
+<p>
+<b>pip install csd-algo
+</p>
+
+
+### Quick check if it is working
 <p>
 now execute the console command
 </p>
