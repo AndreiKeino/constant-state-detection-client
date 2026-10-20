@@ -1,8 +1,8 @@
-# This is the web client description for the Constant State Dectection in Timeseries algorithm webservice.
+# This is the web client description for the Constant State Detection in Timeseries algorithm webservice.
 ## You can take a look at the [perprint with the introduction to the algorithm here.](https://figshare.com/articles/preprint/The_effective_algorithm_for_constant_state_detection_in_time_series_V_2_3_/28375532)
 
 ## Requires Python 3.10+
-## Intallation:
+## Installation:
 
 Recommended:
 ### 1. Create a virtual environment. 
@@ -13,7 +13,7 @@ For Linux: execute the console command
 <b>python3 -m venv your_path_to_new_virtual_environment</b>
 </p>
 <p>
-for other operation systems there could de different command(s)
+for other operation systems there could be different command(s)
 </p>
 
 ### 2. Activate it.  
@@ -24,7 +24,7 @@ For Linux: execute the console command
 <b>source your_path_to_new_virtual_environment/bin/activate</b>
 </p>
 <p>
-for other operation systems there could de different command(s)
+for other operation systems there could be different command(s)
 </p>
 
 ### 3. Install the package.
@@ -184,7 +184,7 @@ state section series.
 
 
 <h3> 
-It might also be helpful to take a look at the code to create the numpy array used for tesing:
+It might also be helpful to take a look at the code to create the numpy array used for testing:
 </h3>
 
 ```python
@@ -195,7 +195,7 @@ def generate_timseries(b: float, points_cnt: int=256,
         """
         function to generate the test timeseries for the 
         constant state detection algorithm demo. returns the 
-        float numpy arrray with the sin(x) + b * sin(2 * x + phi)
+        float numpy array with the sin(x) + b * sin(2 * x + phi)
         sum of the first and the second harmonic inside.
 
         input parameters:

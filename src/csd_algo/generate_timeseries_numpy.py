@@ -15,7 +15,7 @@ def generate_timseries(b: float, points_cnt: int=256,
         """
         function to generate the test timeseries for the 
         constant state detection algorithm demo. returns the 
-        float numpy arrray with the sin(x) + b * sin(2 * x + phi)
+        float numpy array with the sin(x) + b * sin(2 * x + phi)
         sum of the first and the second harmonic inside.
 
         input parameters:
