@@ -22,8 +22,7 @@ def generate_timseries(b: float, points_cnt: int=256,
         * b - float, the value of the second harmonic
         * points_cnt - int, the count of the points in the output array
         * periods - int, the period count of the first harmonic
-        * phi - float, the phase of the second harmonic in the radians 
-          multiplied by the PI value
+        * phi - float, the phase of the second harmonic in the PI * radians 
         """
 
         points = int(periods * points_cnt)
