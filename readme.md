@@ -176,8 +176,8 @@ It is better to leave the parameters Algo_Type and Window_Height_Type values to 
 values for the beginning. 
 </h3>
 <h3>
-Algo_Type value set to the AlgorithmType.POSTPROCESSING_V1 
-value means advanced algorithm 
+If Algo_Type value is set to the AlgorithmType.POSTPROCESSING_V1 
+value, it means usage of the advanced algorithm 
 which chooses the 'best' constant state section
 with the minimal height from sections that 
 have the maximal length from one continuous constant 
