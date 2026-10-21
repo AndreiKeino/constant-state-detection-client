@@ -173,7 +173,9 @@ class CSD_Data(BaseModel):
 
 <h3> 
 It is better to leave the parameters Algo_Type and Window_Height_Type values to have their default 
-values for the beginning. Algo_Type.POSTPROCESSING_V1 
+values for the beginning. 
+
+Algo_Type value set to the AlgorithmType.POSTPROCESSING_V1 
 value means advanced algorithm 
 which chooses the 'best' constant state section
 with the minimal height from sections that 
